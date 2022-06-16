@@ -1,0 +1,155 @@
+html {
+  min-height: 100%;
+  overflow-y: scroll;
+}
+
+body {
+  background-color: #EEEEEE;
+  font-family: trebuchet ms, sans-serif;
+  font-size: 1.3em;
+  margin: 0;
+  min-height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+hr {
+  background-color: white;
+  border-style: none;
+  font-family: 'Parisienne', cursive;
+  height: 4px;
+  width : 95%;
+}
+
+
+h1 {
+  font-family: 'Parisienne', cursive;
+  font-size: 5rem;
+  margin-top: 0;
+}
+
+h2 {
+  color: #019267;
+  font-weight: normal;
+}
+
+
+h3 {
+  color: #CEAB93;
+}
+
+img:hover {
+  filter: blur(5px);
+}
+
+p {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.bard {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+/*
+.bard-description {
+  clear: left;
+}
+*/
+
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+  bottom: 60%;
+}
+
+.bottom-container {
+  background-color: #FFFBE7;
+  flex-grow: 1;
+  margin-top: -10px;
+  margin-bottom: 0;
+  min-height: 100%;
+  position: relative;
+}
+
+.character-row {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.illusturation {
+  width: 80%;
+  margin: 40px;
+}
+
+.middle-container {
+  padding-bottom: 20px;
+}
+
+.oldlady {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.profile {
+  background-color: #97DBAE;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-bottom: -10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.profile-pic {
+  position: absolute;
+  left: 47%;
+  top: 34%;
+}
+
+.sheep {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.shepherdess {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+/*
+.shepherdess-description {
+  clear: right;
+}
+*/
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  line-height: 1.5;
+  text-align: left;
+  width: 50%;
+}
+
+.title{
+  font-family: 'Parisienne', cursive;
+  font-size: 2em;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 20%;
+  top: 5%;
+}
+
+
+.top-container {
+  background-color: #9ADCFF;
+  color: #F24A72;
+  margin-top: 0;
+  padding-top: 100px;
+  position: relative;
+}
