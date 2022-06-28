@@ -15,18 +15,21 @@ body {
   flex-shrink: 0;
 }
 
+div {
+  overflow: hidden;
+}
+
 hr {
   background-color: white;
   border-style: none;
   font-family: 'Parisienne', cursive;
   height: 4px;
-  width : 95%;
+  width: 95%;
 }
 
-
 h1 {
-  font-family: 'Parisienne', cursive;
-  font-size: 5rem;
+  font-family: 'Amatic SC', cursive;
+  font-size: 16rem;
   margin-top: 0;
 }
 
@@ -35,14 +38,16 @@ h2 {
   font-weight: normal;
 }
 
-
 h3 {
   color: #CEAB93;
 }
 
+/*
 img:hover {
   filter: blur(5px);
 }
+*/
+
 
 p {
   font-family: 'Shadows Into Light', cursive;
@@ -59,13 +64,6 @@ p {
   clear: left;
 }
 */
-
-.bottom-cloud {
-  position: absolute;
-  left: 20%;
-  bottom: 60%;
-}
-
 .bottom-container {
   background-color: #FFFBE7;
   flex-grow: 1;
@@ -89,6 +87,18 @@ p {
   padding-bottom: 20px;
 }
 
+.mountain-left {
+  position: absolute;
+  right: 50%;
+  bottom: 0.01%;
+}
+
+.mountain-right {
+  position: absolute;
+  left: 65%;
+  top: 32.5%;
+}
+
 .oldlady {
   float: right;
   margin-left: 30px;
@@ -107,7 +117,7 @@ p {
 .profile-pic {
   position: absolute;
   left: 47%;
-  top: 34%;
+  top: 50%;
 }
 
 .sheep {
@@ -121,11 +131,24 @@ p {
   margin-left: 30px;
   width: 25%;
 }
+
 /*
 .shepherdess-description {
   clear: right;
 }
 */
+.side-cloud1 {
+  position: absolute;
+  right: 30%;
+  top: 5%;
+}
+
+.side-cloud2 {
+  position: absolute;
+  right: 30%;
+  bottom: 30%;
+  opacity: 0.7;
+}
 
 .skill-row {
   margin: 100px auto 100px auto;
@@ -134,21 +157,69 @@ p {
   width: 50%;
 }
 
-.title{
+.star1 {
+  position: absolute;
+  left: 20%;
+  top: 10%;
+}
+
+.star2 {
+  position: absolute;
+  left: 30%;
+  top: 40%;
+}
+
+.star3 {
+  position: absolute;
+  right: 30%;
+  top: 35%;
+}
+
+.star4 {
+  position: absolute;
+  right: 10%;
+  top: 30%;
+}
+
+.star5 {
+  position: absolute;
+  right: 20%;
+  top: 5%;
+}
+
+.star6 {
+  position: absolute;
+  right: 50%;
+  top: 30%;
+}
+
+.star7 {
+  position: absolute;
+  left: 40%;
+  top: 10%;
+}
+
+.title {
   font-family: 'Parisienne', cursive;
   font-size: 2em;
 }
 
 .top-cloud {
   position: absolute;
-  right: 20%;
-  top: 5%;
+  left: 70%;
+  top: 10%;
 }
 
+.top-cloud2 {
+  position: absolute;
+  left: 20%;
+  bottom: 60%;
+  opacity: 0.7;
+}
 
 .top-container {
-  background-color: #9ADCFF;
-  color: #F24A72;
+  background-color: #1B2430;
+  color: #839AA8;
   margin-top: 0;
   padding-top: 100px;
   position: relative;
