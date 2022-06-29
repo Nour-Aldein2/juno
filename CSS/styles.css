@@ -141,14 +141,34 @@ p {
   position: absolute;
   right: 30%;
   top: 5%;
+  opacity: 0.85;
+  animation-name: wind;
+  animation-duration: 90s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.side-cloud3 {
+  position: absolute;
+  right: 10%;
+  top: 5%;
+  opacity: 0.5;
+  animation: wind2 90s linear infinite;
 }
 
-.side-cloud2 {
+.side-cloud2{
   position: absolute;
   right: 30%;
   bottom: 30%;
   opacity: 0.7;
+  animation-name: wind;
+  animation-duration: 170s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 15s;
 }
+
 
 .skill-row {
   margin: 100px auto 100px auto;
@@ -161,42 +181,49 @@ p {
   position: absolute;
   left: 20%;
   top: 10%;
+  animation:fade-out 2s infinite linear
 }
 
 .star2 {
   position: absolute;
   left: 30%;
   top: 40%;
+  animation:fade-out 2s infinite linear 1s
 }
 
 .star3 {
   position: absolute;
   right: 30%;
   top: 35%;
+  animation:fade-out 2s infinite linear 1.5s
 }
 
 .star4 {
   position: absolute;
   right: 10%;
   top: 30%;
+  animation:fade-out 2s infinite linear 2.5s
 }
 
 .star5 {
   position: absolute;
   right: 20%;
   top: 5%;
+  animation:fade-out 2s infinite linear 3s
 }
 
 .star6 {
   position: absolute;
   right: 50%;
   top: 30%;
+  animation:fade-out 2s infinite linear 3.5s
 }
 
 .star7 {
   position: absolute;
   left: 40%;
   top: 10%;
+  animation:fade-out 2s infinite linear 4.5s
 }
 
 .title {
@@ -208,13 +235,20 @@ p {
   position: absolute;
   left: 70%;
   top: 10%;
+  opacity: 0.85;
+  animation-name: wind;
+  animation-duration: 100s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .top-cloud2 {
   position: absolute;
-  left: 20%;
-  bottom: 60%;
+  right: 80%;
+  bottom: 45%;
   opacity: 0.7;
+  animation: wind 110s linear infinite;
 }
 
 .top-container {
@@ -223,4 +257,20 @@ p {
   margin-top: 0;
   padding-top: 100px;
   position: relative;
+}
+
+
+@keyframes wind {
+  from { transform: translateX(-1400px) }
+  to { transform: translateX(1400px) }
+}
+
+@keyframes wind2 {
+  from { transform: translateX(-100px) }
+  to { transform: translateX(1400px) }
+}
+
+@keyframes fade-out {
+  0%,100% { opacity: 0.3 }
+  50% { opacity: 1 }
 }
